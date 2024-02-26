@@ -23,7 +23,7 @@
         do
         {
             result += arrCureentValue.ToString();
-            arrCureentValue = (arrCureentValue - 2 + arrMaxValue) % arrStep + 1;
+            arrCureentValue = (arrCureentValue - 2 + arrStep) % arrMaxValue + 1;
         } while (arrCureentValue != 1);
         Console.WriteLine(result);
         return 0;
